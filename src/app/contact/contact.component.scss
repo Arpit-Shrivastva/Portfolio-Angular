@@ -1,0 +1,400 @@
+.contact-section {
+    margin-top: 10%;
+    padding: 0 10%;
+    margin-bottom: 5%;
+
+    .section-title {
+        text-align: center;
+        color: #0E2431;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: 'Poppins';
+    }
+
+    .section-subtitle {
+        text-align: center;
+        font-family: 'Poppins';
+        color: #616161;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .contact-container {
+        display: flex;
+        margin-top: 10%;
+
+        .contact {
+            width: 50vw;
+
+            .call-det {
+                display: flex;
+                margin-bottom: 8%;
+
+                .phone {
+                    margin-left: -20%;
+
+                    h1 {
+                        font-family: 'Poppins';
+                        font-weight: 600;
+                        color: #0E2431;
+                        font-size: 1.8rem;
+                        margin-bottom: 0;
+                    }
+
+                    a {
+                        font-family: 'Poppins';
+                        font-weight: 600;
+                        color: #0E2431;
+                        font-size: 1rem;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .abt-text {
+                margin-top: 5%;
+                width: 85%;
+                margin-left: 9%;
+                color: #0E2431;
+                font-weight: 500;
+                font-size: 1.1em;
+            }
+
+            .contact-btn {
+                text-align: center;
+                margin-left: 10%;
+                background-color: #4070F4;
+                cursor: pointer;
+                padding: 0.5em 1.5em;
+                width: 30%;
+                border-radius: 8px;
+
+                .btn {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+
+                &:hover {
+                    box-shadow: 0 10px 36px rgba(0, 0, 0, 0.308);
+                    transition: all .3s ease-in-out;
+                    background-color: #0E2431;
+                }
+            }
+        }
+
+        .form {
+            width: 50vw;
+            margin: 0% 5%;
+
+            p {
+                font-size: 1.1em;
+                color: #0E2431;
+            }
+
+            .formbold-mb-5 {
+                margin: 0.74em 0;
+
+                .formbold-form-label {
+                    display: block;
+                    color: #07074d;
+                    margin: 3% 0;
+                    font-size: 1.1em;
+                }
+
+                .formbold-form-input {
+                    width: 100%;
+                    padding: 12px 24px;
+                    border-radius: 6px;
+                    border: 1px solid #e0e0e0;
+                    background: white;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #6b7280;
+                    outline: none;
+                    resize: none;
+                }
+
+                .form--mssg {
+                    width: 100%;
+                    padding: 12px 24px;
+                    border-radius: 6px;
+                    border: 1px solid #e0e0e0;
+                    background: white;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #6b7280;
+                    outline: none;
+                    resize: none;
+                }
+            }
+
+            .formbold-btn {
+                text-align: center;
+                font-size: 16px;
+                border-radius: 6px;
+                padding: 14px 32px;
+                border: none;
+                font-weight: 600;
+                background-color: #4070F4;
+                color: white;
+                width: 100%;
+                cursor: pointer;
+                transition: all 0.36s ease;
+
+                &:hover {
+                    box-shadow: 0 10px 36px rgba(0, 0, 0, .308);
+                    background-color: #0E2431;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .contact-section {
+        padding: 0 4%;
+
+        .contact-container {
+
+            .contact {
+
+                .abt-text {
+                    width: 90%;
+                }
+
+                .contact-btn {
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .contact-section {
+        .section-title {
+            font-size: 2em;
+        }
+
+        .contact-container {
+
+            .contact {
+
+                .abt-text {
+                    width: 90%;
+                    font-size: 0.9em;
+                }
+
+                .contact-btn {
+                    width: 30%;
+                    padding: 0.5em 0.8em;
+                }
+            }
+
+            .form {
+                p {
+                    font-size: 0.9em;
+                }
+
+                .formbold-mb-5 {
+                    margin: 0.5em 0;
+
+                    .formbold-form-label {
+                        margin: 2% 0;
+                        font-size: 0.9em;
+                    }
+
+                    .formbold-form-input {
+                        padding: 8px 15px;
+                        font-size: 14px;
+                    }
+
+                    .form--mssg {
+                        padding: 8px 15px;
+                        font-size: 14px;
+                    }
+                }
+
+                .formbold-btn {
+                    font-size: 14px;
+                    margin-top: -1%;
+                    padding: 12px 15px;
+                }
+            }
+
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .contact-section {
+
+        .section-title {
+            font-size: 2em;
+        }
+
+        .contact-container {
+            flex-direction: column;
+            text-align: center;
+
+            .contact {
+                width: 100%;
+
+                .contact {
+                    width: 100vw;
+
+                    .call-det {
+                        display: flex;
+                        margin-bottom: 8%;
+
+                        .phone {
+                            h1 {
+                                font-size: 1rem;
+                            }
+
+                            a {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+
+                .abt-text {
+                    width: 75%;
+                    margin-left: 0%;
+                    margin: auto;
+                    font-size: 0.95em;
+                }
+
+                .contact-btn {
+                    margin: auto;
+                    width: 20%;
+                    padding: 0.6em 0.7em;
+                }
+            }
+
+            .form {
+                width: 100%;
+                margin-top: 10%;
+                margin-left: -0.5em;
+
+                .formbold-mb-5 {
+                    margin: 0.5em 0;
+
+                    .formbold-form-label {
+                        margin: 2% 0;
+                        font-size: 0.95em;
+                    }
+
+                    .formbold-form-input {
+                        padding: 15px 18px;
+                        font-size: 16px;
+                        width: 80%;
+                    }
+
+                    .form--mssg {
+                        padding: 15px 18px;
+                        font-size: 16px;
+                        width: 80%;
+                    }
+                }
+
+                .formbold-btn {
+                    font-size: 15px;
+                    margin-top: -1%;
+                    padding: 12px 15px;
+                    width: 80%;
+                }
+            }
+
+        }
+    }
+}
+
+@media all and (max-width: 440px) {
+    .contact-section {
+        
+
+        .section-title {
+            font-size: 1.6em;
+        }
+
+        .section-subtitle{
+            margin-top: -5%;
+            margin-bottom: -3%;
+            font-size: 0.8rem;
+        }
+
+        .contact-container {
+            .contact {
+
+                .call-det {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .phone {
+                        h1 {
+                            margin-left: 10%;
+                            font-size: 0.7rem;
+                        }
+
+                        a {
+                            margin-left: 27%;
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+
+                .abt-text {
+                    width: 80%;
+                    font-size: 0.8em;
+                }
+
+                .contact-btn {
+                    width: 35%;
+                    padding: 0.2rem 0.2rem;
+                }
+            }
+
+            .form {
+                margin-top: 5em;
+                margin-left: 0em;
+
+                .formbold-mb-5 {
+                    .formbold-form-label {
+                        font-size: 0.9em;
+                    }
+
+                    .formbold-form-input {
+                        padding: 8px 18px;
+                        font-size: 14px;
+                        width: 85%;
+                    }
+
+                    .form--mssg {
+                        padding: 8px 18px;
+                        font-size: 14px;
+                        width: 85%;
+                    }
+                }
+
+                .formbold-btn {
+                    margin-top: 0%;
+                    padding: 10px 15px;
+                    width: 85%;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+// @media all and (max-width: 360px){
+//     .contact-section{
+//         width: 100vw;
+//     }
+// }

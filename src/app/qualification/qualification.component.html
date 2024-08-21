@@ -1,0 +1,18 @@
+<div class="academic" id="edu">
+    <h2>Qualification</h2>
+    <h3>My Personal Journey</h3>
+    <div class="">
+        <p-timeline [value]="events" align="alternate">
+            <ng-template pTemplate="content" let-event class="timeline">
+                <h1 style="font-family: 'Poppins';
+            color: #0E2431;
+            font-size: 1.5rem;
+            font-weight: 600;
+            ">{{ event.name }}</h1>
+                <p style="font-weight: 500;" class="p-text-secondary">{{ event.department }}</p>
+                <p style="font-weight: 500;" class="p-text-secondary">{{ event.date }}</p>
+            </ng-template>
+        </p-timeline>
+
+    </div>
+</div>

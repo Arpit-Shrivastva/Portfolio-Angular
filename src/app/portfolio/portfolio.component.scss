@@ -1,0 +1,148 @@
+.portfolio {
+    margin-top: 9%;
+
+    h2 {
+        font-family: 'Poppins';
+        text-align: center;
+        color: #0E2431;
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: 'Poppins';
+        color: #616161;
+        font-size: 1.5em;
+        font-weight: 500;
+        margin-bottom: 5%;
+    }
+
+    .card_ {
+        max-height: 80vw;
+        max-width: 70vw;
+        display: flex;
+        padding: 1%;
+        margin: auto;
+
+        .card-img {
+            padding: 2%;
+            width: 55%;
+            margin: auto;
+        }
+
+        .card-detail {
+            h2 {
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 2rem;
+                text-align: center;
+                color: #0E2431;
+            }
+
+            p {
+                font-family: 'Poppins';
+                text-align: justify;
+                font-weight: 500;
+                font-size: 0.9rem;
+                color: #0E2431;
+            }
+
+            .tech-details {
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 1rem;
+            }
+
+            .work-icon {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .portfolio {
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            margin-top: -2%;
+        }
+
+        .card_ {
+            .card-img {
+                padding: 2%;
+            }
+
+            .card-detail {
+                h2 {
+                    font-size: 1.4rem;
+                }
+
+                p {
+                    font-size: 0.7rem;
+                }
+
+                .tech-details {
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                    font-size: 0.7rem;
+                }
+
+                .work-icon {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 440px) {
+    .portfolio {
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 0.8em;
+            margin-top: -4%;
+        }
+
+        .card_ {
+            max-height: 130vw;
+            max-width: 100vw;
+
+            .card-img {
+                width: 70%;
+            }
+
+            .card-detail {
+                h2 {
+                    font-size: 1.1rem;
+                }
+
+                p {
+                    font-size: 0.6rem;
+                }
+
+                .tech-details {
+                    font-size: 0.6rem;
+                }
+
+                .work-icon {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+// @media all and (max-width: 360px){
+//     .portfolio{
+//         width: 100vw;
+//     }
+// }

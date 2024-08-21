@@ -1,0 +1,353 @@
+.main-head {
+    .main-home {
+        display: flex;
+        margin-top: 8%;
+        width: 100%;
+
+        .home__social {
+            margin-top: 13%;
+            padding-left: 10%;
+            width: 20vw;
+
+            ul {
+                list-style: none;
+
+                .home__social-icon {
+                    font-size: 2em;
+                    color: #0E2431;
+                    margin-right: 4%;
+
+                    &:hover {
+                        color: #4070F4;
+                    }
+                }
+            }
+        }
+
+        .about-me {
+            margin-top: 9%;
+            width: 35vw;
+
+            h1 {
+                font-size: 4rem;
+                font-weight: 600;
+                color: #0E2431;
+                font-family: 'Poppins';
+            }
+
+            h2 {
+                padding: 4% 0;
+                color: rgba(87, 86, 86, 0.808);
+                font-family: 'Poppins';
+                font-size: 1.8rem;
+                font-weight: 500;
+            }
+
+            p {
+                color: #0E2431;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+
+            .buttons {
+                width: 15vw;
+                margin-top: 8%;
+
+                i {
+                    display: inline;
+                    margin-right: 5%;
+                }
+
+                .button {
+                    font-size: 1.4em;
+                    font-weight: 600;
+                    text-decoration: none;
+                    color: #fff;
+                    background-color: #4070F4;
+                    padding: 6% 7%;
+                    border-radius: 8px;
+                    cursor: pointer;
+
+                    &:hover {
+                        box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+                        transition: all .3s ease-in-out;
+                        background-color: #0E2431;
+                    }
+                }
+            }
+        }
+
+
+
+        .contact-img {
+            width: 45vw;
+            margin-left: 10%;
+            margin-top: 7%;
+
+            .my-img {
+                border-radius: 50%;
+                width: 50%;
+
+                &:hover {
+                    filter: grayscale(60%);
+                    transform: scale(1.1);
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+
+        }
+
+    }
+
+    .scroller {
+        margin-top: 10%;
+        padding-left: 10%;
+
+        p {
+            color: #0E2431;
+            font-size: 1rem;
+            font-weight: 600;
+            display: inline;
+        }
+
+        i {
+            color: #0E2431;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+    }
+}
+
+
+@media all and (max-width: 1200px) {
+    .main-head {
+        .main-home {
+            .home__social {
+                padding-left: 8%;
+
+                ul {
+                    .home__social-icon {
+                        font-size: 2em;
+                        margin-right: 4%;
+                    }
+                }
+            }
+
+            .about-me {
+                margin-left: 5%;
+
+                h1 {
+                    font-size: 3rem;
+                }
+
+                h2 {
+                    padding: 0%;
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+
+                .buttons {
+                    .button {
+                        font-size: 1.1rem;
+                        padding: 6% 5%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .main-head {
+        .main-home {
+            .home__social {
+                padding-left: 8%;
+
+                ul {
+                    .home__social-icon {
+                        font-size: 2em;
+                        margin-right: 4%;
+                    }
+                }
+            }
+
+            .about-me {
+
+                h1 {
+                    font-size: 2.9rem;
+                }
+
+                h2 {
+                    font-size: 1.2rem;
+                }
+            }
+
+
+
+            .contact-img {
+                .my-img {
+                    width: 70%;
+                }
+
+            }
+
+        }
+
+        .scroller {
+            text-align: center;
+
+            p {
+                color: #0E2431;
+                font-size: 1rem;
+                font-weight: 600;
+                display: inline;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main-head {
+        .main-home {
+            .home__social {
+                padding-left: 8%;
+                margin-top: 18%;
+
+                ul {
+                    .home__social-icon {
+                        font-size: 1.7em;
+                        margin-right: 4%;
+                    }
+                }
+            }
+
+            .about-me {
+
+                h1 {
+                    font-size: 2.2rem;
+                }
+
+                h2 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 0.75rem;
+                    font-weight: 600;
+                }
+
+                .buttons {
+                    width: 20vw;
+
+                    i {
+                        margin-right: 1%;
+                    }
+
+                    .button {
+                        font-size: 0.7rem;
+                        padding: 6% 5%;
+                    }
+                }
+            }
+
+            .contact-img {
+                .my-img {
+                    width: 80%;
+                }
+
+            }
+
+        }
+
+        .scroller {
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 440px) {
+    .main-head {
+        margin-top: 40%;
+
+        .main-home {
+            .home__social {
+                margin-top: 18%;
+                margin-right: 7%;
+
+                ul {
+                    .home__social-icon {
+                        font-size: 1.7em;
+                    }
+                }
+            }
+
+            .about-me {
+                width: 80vw;
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                h2 {
+                    font-size: 1rem;
+                    margin: -2% 0;
+                }
+
+                p {
+                    font-size: 0.7rem;
+                    font-weight: 500;
+                    width: 85%;
+                }
+
+                .buttons {
+                    width: 80vw;
+
+                    i {
+                        margin-right: 1%;
+                    }
+
+                    .button {
+                        font-size: 0.7rem;
+                        padding: 3% 5%;
+                    }
+                }
+            }
+
+            .contact-img {
+                display: none;
+                width: 0vw;
+
+                .my-img {
+                    display: none;
+                }
+
+            }
+
+        }
+
+        .scroller {
+            text-align: center;
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+// @media all and (max-width: 360px) {
+//     .main-head {
+//         width: 100vw;
+
+//         .about-me {
+//             p{
+//                 width: 70vw;
+//             }
+//         }
+//     }
+// }
